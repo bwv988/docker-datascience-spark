@@ -15,7 +15,7 @@ function build_img() {
   popd
 }
 
-IMGPREFIX=analytics
+IMGPREFIX=bwv988
 
 build_img $IMGPREFIX ds-spark-base
 build_img $IMGPREFIX ds-spark-master

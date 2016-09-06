@@ -3,7 +3,7 @@
 # FIXME: Hard-coded Irish Apache mirror, but should use cloud-based one.
 # FIXME: Should link hive-site.xml from Hive container, instead of copying it.
 
-FROM analytics/hadoop-base
+FROM bwv988/hadoop-base
 
 # Install Spark.
 ENV SPARK_VERSION 2.0.0
