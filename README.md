@@ -19,6 +19,12 @@ Also, a number of libraries for R and Python have been installed:
 
 Check out <https://github.com/bwv988/datascience-docker-sandbox> for usage examples.
 
+## TODO
+
+- Install scikit-learn.
+- Get Matplotlib to work (Tcl / Tk issue).
+- Install libs & frameworks for using Deep Learning and Artifical Neural Networks.
+
 ## Versions
 
 - Apache Spark 2.0.0
