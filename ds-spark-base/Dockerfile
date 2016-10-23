@@ -1,7 +1,8 @@
 # Base docker file for Apache Spark Data Science container.
 # FIXME: Removed verification of download temporarily!
-# FIXME: Hard-coded Irish Apache mirror, but should use cloud-based one.
+# FIXME: Hard-coded Apache mirror suitable for Ireland, but should use cloud-based one.
 # FIXME: Should link hive-site.xml from Hive container, instead of copying it.
+# FIXME: Reduce size of container.
 
 FROM bwv988/hadoop-base
 
@@ -24,15 +25,21 @@ RUN set -ex \
     && apt-get update && apt-get install -y --no-install-recommends  \
       libssl-dev \
       libcurl4-openssl-dev \
+      python-tk \
       python-numpy \
       python-scipy \
       python-matplotlib \
       python-pandas \
       python-sympy \
       python-nose \
+      python-pip \
+      python-dev \
+      build-essential \
+      git \
       r-base \
       r-base-dev \
       r-recommended \
+     && pip install -U scikit-learn \
      && apt-get clean \
      && rm -rf /var/lib/apt/lists/*
 
