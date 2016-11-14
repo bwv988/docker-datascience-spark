@@ -1,5 +1,7 @@
 # Docker images for Data Science with Apache Spark
 
+[![Build Status](https://api.travis-ci.org/bwv988/docker-datascience-spark.svg?branch=master)](https://api.travis-ci.org/bwv988/docker-datascience-spark.svg?branch=master)
+
 ## About
 
 These experimental docker containers allow to develop and run data science applications using Apache Spark.
@@ -15,14 +17,13 @@ Also, a number of libraries for R and Python have been installed:
 - Pandas
 - SciPy
 - NumPy
+- scikit-learn
 - Various R packages
 
 Check out <https://github.com/bwv988/datascience-docker-sandbox> for usage examples.
 
 ## TODO
 
-- Install scikit-learn.
-- Get Matplotlib to work (Tcl / Tk issue).
 - Install libs & frameworks for using Deep Learning and Artifical Neural Networks.
 
 ## Versions
