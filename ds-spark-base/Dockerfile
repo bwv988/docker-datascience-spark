@@ -17,7 +17,7 @@ RUN set -ex \
     && curl -kfSL "$SPARK_DL_FILE" -o /tmp/spark.tar.gz \
     && tar -xvf /tmp/spark.tar.gz -C /opt/ \
     && rm /tmp/spark.tar.gz* \
-    && mv /opt/$spark-${SPARK_VERSION}-bin-hadoop${HADOOP_VERSION} $SPARK_HOME
+    && mv /opt/spark-${SPARK_VERSION}-bin-hadoop${HADOOP_VERSION} $SPARK_HOME
 
 # Install R, Pandas, SciPy, NumPy...
 RUN set -ex \
