@@ -28,6 +28,6 @@ Check out <https://github.com/bwv988/datascience-docker-sandbox> for usage examp
 
 ## Versions
 
-- Apache Spark 2.0.0
+- Apache Spark 2.0.2
 - Python 3.x
 - R 3.x
