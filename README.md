@@ -1,6 +1,6 @@
 # Docker images for Data Science with Apache Spark
 
-[![Build Status](https://api.travis-ci.org/bwv988/docker-datascience-spark.svg?branch=master)](https://api.travis-ci.org/bwv988/docker-datascience-spark.svg?branch=master)
+[![Build Status](https://api.travis-ci.org/bwv988/docker-datascience-spark.svg?branch=master)](https://travis-ci.org/bwv988/docker-datascience-spark)
 
 ## About
 
@@ -20,7 +20,7 @@ Also, a number of libraries for R and Python have been installed:
 - scikit-learn
 - Various R packages
 
-Check out <https://github.com/bwv988/datascience-docker-sandbox> for usage examples.
+Check out <https://github.com/bwv988/datascience-playground> for usage examples.
 
 ## TODO
 
