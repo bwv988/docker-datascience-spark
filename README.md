@@ -28,6 +28,6 @@ Check out <https://github.com/bwv988/datascience-playground> for usage examples.
 
 ## Versions
 
-- Apache Spark 2.0.2
+- Apache Spark 2.1.1
 - Python 3.x
 - R 3.x

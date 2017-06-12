@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export SPARK_VERSION=2.0.2
+export SPARK_VERSION=2.1.1
 export SPARK_HOME=/opt/spark-$SPARK_VERSION
 
 # Look for SPARK config settings in the environment.
